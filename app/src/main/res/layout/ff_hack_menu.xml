@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1a1a1a"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FF HACK MENU"
+        android:textSize="24sp"
+        android:textColor="#ff4444"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/mode_off"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="OFF"
+            android:textColor="#ffffff"
+            android:background="#333333"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/mode_light"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="LIGHT"
+            android:textColor="#ffffff"
+            android:background="#444466"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/mode_agg"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="AGG"
+            android:textColor="#ffffff"
+            android:background="#664444"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/mode_ext"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="EXT"
+            android:textColor="#ffffff"
+            android:background="#664466" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Aimbot"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_aimbot"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Aim Smooth"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_aimsmooth"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ESP Skeleton"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_espskeleton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ESP Names"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_espnames"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ESP Items"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_espitems"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Speed Hack"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_speedhack"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Jump Boost"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_jumpboost"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No Recoil"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_norecoil"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Damage Mult"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_damagemult"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No Reload"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_noreload"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Anti Gravity"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_antigravity"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Auto Loot"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_autoloot"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lag Switch"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_lagswitch"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Teleport"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_teleport"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:background="#222222">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Behavior Random"
+                    android:textColor="#ffffff" />
+                <Button
+                    android:id="@+id/toggle_behaviorrandom"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#ff4444"
+                    android:text="" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/scan_btn"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="SCAN"
+            android:textColor="#ffffff"
+            android:background="#ff4444"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/hide_btn"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="HIDE"
+            android:textColor="#ffffff"
+            android:background="#444444" />
+
+    </LinearLayout>
+
+</LinearLayout>
